@@ -11,6 +11,18 @@
   status = 200
   force = true
 
+[[redirects]]
+  from = "/action"
+  to = "/.netlify/functions/action"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/admin-attribution"
+  to = "/.netlify/functions/admin-attribution"
+  status = 200
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
